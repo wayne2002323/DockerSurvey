@@ -72,15 +72,15 @@ docker cp ./TPGISSSO/Web.config $NMAE:/inetpub/wwwroot/TPGISSSO/Web.config
 * 下載完整版的image其實挺占空間的，SQL Server或者aspnet一個都有10G以上，這次練習結束大概用了近50G的空間，使用Linux版本的image相較之下會省非常多的空間。
 
 ## 參考資料
-1. https://skychang.github.io/2017/01/06/Docker-Docker_for_Windows_10_First/
-2. https://docs.microsoft.com/zh-tw/aspnet/mvc/overview/deployment/docker-aspnetmvc
-3. https://www.slideshare.net/WillHuangTW/windows-containers-docker-taipei
-4. http://it-ginseng.blogspot.com/2018/02/windows-containers-iis.html
-5. https://edwardkuo.imas.tw/paper/2017/03/09/Docker/Deletewindowsfilter/
-6. https://dotblogs.com.tw/rainmaker/2017/01/05/181153
-7. https://ithelp.ithome.com.tw/articles/10193291?sc=iThelpR
-8. https://www.yiibai.com/docker/image_prune.html
-9. https://community.esri.com/thread/166654
-10. https://github.com/Geo-CEG
-11. https://s3.amazonaws.com/arcgisstore1051/7333/docs/ReadmeECS.html
-12. https://ithelp.ithome.com.tw/articles/10184657
+1. [Docker - Docker for Windows 10 入門篇 | 天空的垃圾場](https://skychang.github.io/2017/01/06/Docker-Docker_for_Windows_10_First/)
+2. [將 ASP.NET MVC 應用程式遷移到 Windows 容器 | Microsoft Docs](https://docs.microsoft.com/zh-tw/aspnet/mvc/overview/deployment/docker-aspnetmvc)
+3. [快速上手 Windows Containers 容器技術 (Docker Taipei)](https://www.slideshare.net/WillHuangTW/windows-containers-docker-taipei)
+4. [IT人蔘: Windows Containers 容器技術 - 建立IIS容器](http://it-ginseng.blogspot.com/2018/02/windows-containers-iis.html)
+5. [無法刪除Docker資料夾中的windowsfilter目錄 | Edward.K Tech Road](https://edwardkuo.imas.tw/paper/2017/03/09/Docker/Deletewindowsfilter/)
+6. [[Docker]使用 Docker for Windows 來運行 ASP.NET WebForms | 亂馬客 - 點部落](https://dotblogs.com.tw/rainmaker/2017/01/05/181153)
+7. [Day20：介紹 Docker 的 Network (一) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10193291?sc=iThelpR)
+8. [docker image prune命令 - Docker教程™](https://www.yiibai.com/docker/image_prune.html)
+9. [Deploying ArcGIS Server using Docker | GeoNet](https://community.esri.com/thread/166654)
+10. [Geo-CEG · GitHub](https://github.com/Geo-CEG)
+11. [ArcGIS Server site with Esri ArcGIS Server Docker deployed in AWS ECS.](https://s3.amazonaws.com/arcgisstore1051/7333/docs/ReadmeECS.html)
+12. [30-2之使用Docker來建構MongoDB環境 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10184657)
