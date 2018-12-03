@@ -50,6 +50,15 @@ docker build -t $NAME .
 ```
 ### Container相關
 ```bash
+#查詢建立的Container
+docker ps -a 
+
+#start Container
+docker start $Container
+
+#stop Container
+docker stop $Container
+
 # 以image建立此Container
 docker run -d --name $NMAE $IMAGE
 ------------------------------------------
